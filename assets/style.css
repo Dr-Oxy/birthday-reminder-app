@@ -7,18 +7,15 @@
 }
 section.one{
     min-height: 100vh;
-}
-
-h1{
-    color: var(--secondary--color)!important;
+    background-color: var(--complementary-color)!important;
 }
 
 h2 {
-    margin-top: 100px !important;
+    margin-top: 80px !important;
 }
 
 button[type="submit"] {
-    background-color: var(--secondary--color);
+    background-color: var(--primary-color);
     color: white;
     border: none;
 }
@@ -37,4 +34,11 @@ section.four {
 section.six {
     background-color: var(--complementary-color);
     color: white;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
