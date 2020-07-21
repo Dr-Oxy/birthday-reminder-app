@@ -4,14 +4,12 @@
     --primary-color: #4ca5f6;
     --secondary--color: #F37c0e;
     --complementary-color: #F2516e ;
-}
-section.one{
-    min-height: 100vh;
-    background-color: var(--complementary-color)!important;
+    color: white;
 }
 
 h2 {
-    margin-top: 80px !important;
+    margin-top: 70px !important;
+    color: white;
 }
 
 button[type="submit"] {
@@ -41,4 +39,8 @@ section.six {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+div.container-fluid.carousel-bg {
+    background-color: var(--primary-color)!important;
 }
