@@ -42,5 +42,5 @@ section.six {
 }
 
 div.container-fluid.carousel-bg {
-    background-color: var(--primary-color)!important;
+    background-color: var(--complementary-color)!important;
 }
